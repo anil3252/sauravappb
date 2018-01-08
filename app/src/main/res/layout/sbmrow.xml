@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#efe4b0">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:text="  Activity का विवरण"
+            android:textColor="#000000"
+            android:id="@+id/textView8" />
+
+        <EditText
+            android:id="@+id/descr"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:textColor="#000000"
+            android:lines="3"
+            android:scrollbars="vertical"
+            android:ems="10" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

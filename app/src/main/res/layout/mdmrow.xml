@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.45"
+    android:text="  भोजन की गुणवत्ता"
+    android:textColor="#000000"
+    android:id="@+id/foodtext" />
+
+    <Spinner
+    android:id="@+id/food"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.55"
+    android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.45"
+    android:text="  स्थान व बर्तन सफाई"
+        android:textColor="#000000"
+    android:id="@+id/placeclean" />
+
+    <Spinner
+    android:id="@+id/place"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.55"
+    android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.45"
+    android:text="  रसोई घर उपलब्ध"
+        android:textColor="#000000"
+    android:id="@+id/rasoiavil" />
+
+    <Spinner
+    android:id="@+id/kitchen"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.55"
+    android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.45"
+    android:text="  ग्रेडिंग प्राप्तांक(10 में से)"
+    android:textColor="#000000"
+    android:id="@+id/marksGrading" />
+
+    <EditText
+    android:id="@+id/marks"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.55"
+    android:inputType="number"
+    android:maxLength="2"
+    android:ems="10" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

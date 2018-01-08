@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dio.com.sauravappb">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- Allow to connect with internet and to know the current network state-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherniri"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcherniri"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme2"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name=".Login"-->
+            <!--android:label="Login chek"-->
+            <!--android:parentActivityName=".LoginActivity" >-->
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="dio.com.sauravappb.LoginActivity" />-->
+        <!--</activity>-->
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Nirikshan - निरीक्षण"
+            android:parentActivityName=".LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dio.com.sauravappb.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".Mdm"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Nirikshan - MDM"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dio.com.sauravappb.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Sbm"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Nirikshan - SBM"
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dio.com.sauravappb.MainActivity" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Nirikshan - About "
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dio.com.sauravappb.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Instruction"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Nirikshan - Instruction "
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dio.com.sauravappb.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Uploaddata"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Nirikshan - Upload Local Data "
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dio.com.sauravappb.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Office"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Nirikshan - Department "
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dio.com.sauravappb.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Work"
+            android:windowSoftInputMode="stateHidden"
+            android:label="Nirikshan - Work "
+            android:theme="@style/AppTheme2"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dio.com.sauravappb.MainActivity" />
+        </activity>
+</application>
+
+</manifest>

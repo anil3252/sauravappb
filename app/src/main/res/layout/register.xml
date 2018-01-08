@@ -1,0 +1,214 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="जिला करौली"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"/>
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="विजिट की गयी पंचायत समिति"
+            android:id="@+id/textView2"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/textView"
+            android:textSize="15dp"/>
+
+    <Spinner
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/fname"
+            android:hint="PS का नाम"
+            android:textColor="#000000"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            />
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="विजिट ग्राम पंचायत"
+            android:textColor="#000000"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView2"
+            android:layout_toLeftOf="@+id/textView"
+            android:textSize="15dp"/>
+
+    <Spinner
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:id="@+id/lname"
+            android:hint="GP का नाम"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="ग्राम का नाम"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:textSize="15dp"/>
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:hint="ग्राम का नाम"
+            android:layout_below="@+id/lname"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="निरीक्षण किया विभाग"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView4"
+            android:layout_alignRight="@+id/textView4"
+            android:textSize="15dp"/>
+
+    <Spinner
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:id="@+id/uname"
+            android:hint="निरीक्षण किया विभाग"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:ems="10"
+            android:id="@+id/pword"
+            android:hint="कार्य/कार्यालय का नाम"
+            android:layout_alignLeft="@+id/uname"
+            android:layout_below="@+id/textView5"
+            android:textSize="15dp"/>
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="कार्य/कार्यालय का नाम"
+            android:id="@+id/textView6"
+            android:layout_alignTop="@+id/pword"
+            android:layout_alignRight="@+id/textView5"
+            android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:text="कार्य की प्रकार"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView6"
+        android:layout_alignRight="@+id/textView6"
+        android:textSize="15dp"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:id="@+id/position"
+        android:hint="कार्य की प्रकार"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:text="कार्य की स्थिति"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_alignRight="@+id/textView7"
+        android:textSize="15dp"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:id="@+id/precess"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentRight="true"
+        android:textSize="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Take Selfi"
+        android:id="@+id/take_image_from_camera"
+        android:layout_below="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:onClick="takeImageFromCamera"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/image_from_camera"
+        android:layout_alignTop="@+id/take_image_from_camera"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"/>
+
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Submit"
+            android:id="@+id/register"
+            android:layout_below="@+id/take_image_from_camera"
+            android:layout_alignRight="@+id/textView2"
+            android:textSize="13dp"/>
+
+    <Button
+            android:layout_width="175dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Back To Login"
+            android:id="@+id/bktologin"
+            android:layout_below="@+id/image_from_camera"
+            android:layout_alignParentRight="true"
+            android:textSize="13dp"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:textColor="#000000"
+            android:id="@+id/register_error"
+            android:layout_below="@+id/register"
+            android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+</ScrollView>

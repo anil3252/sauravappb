@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Nirikshan- निरीक्षण</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+        <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+
+        <string name="Username">Username</string>
+        <string name="Password">Password</string>
+        <string name="LoginBtn">Login</string>
+        <string name="SignupBtn">Sign Up</string>
+        <string name="LogoutBtn">Log Out</string>
+
+        <string name="Welcome">Welcome!</string>
+    <string name="about">Application developed and powered by NIC Karauli.\n All right reserved with NIC Karauli </string>
+    <string name="instruct">If you are not able to login please contact DIO, NIC Karauli (rajkrl@nic.in)</string>
+        <string name="ps_prompt">कार्य की स्थिति</string>
+
+        <string-array name="psarrays">
+            <item>स्थान का चयन</item>
+            <item>कार्य प्रारम्भ</item>
+            <item>कार्य पूर्ण</item>
+            <item>कार्य अपूर्ण एवं रुका हुआ</item>
+            <item>कार्य प्रगिति पर</item>
+        </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Log Out</string>
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+
+    <string name="permission_rationale_loc">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+</resources>

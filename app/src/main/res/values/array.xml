@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="works">
+        <item>स्थान का चयन</item>
+        <item>कार्य प्रारम्भ</item>
+        <item>कार्य पूर्ण</item>
+        <item>कार्य अपूर्ण एवं रुका हुआ</item>
+        <item>कार्य प्रगिति पर</item>
+    </string-array>
+</resources>
+
+

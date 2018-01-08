@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mdm"
+            android:icon="@drawable/ic_mdm"
+            android:title="MDM निरीक्षण"/>
+        <item
+            android:id="@+id/nav_sbm"
+            android:icon="@drawable/ic_sbm"
+            android:title="SBM निरीक्षण"/>
+        <item
+            android:id="@+id/nav_office"
+            android:icon="@drawable/ic_office"
+            android:title="कार्यालय निरीक्षण" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_inspect"
+            android:title="निर्माण कार्य निरीक्षण" />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="अपलोड लोकल डाटा" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_instr"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Instructions" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_dialog_alert"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_feed"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
